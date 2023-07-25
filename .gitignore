@@ -1,0 +1,47 @@
+# Compiled output
+*.exe
+*.o
+*.so
+*.test
+*.prof
+
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Go-specific output
+/_obj/
+/_test/
+/_testmain.go
+/_testmain.go~
+
+# Dependency directories (created by 'go get')
+/vendor/
+/Godeps/
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+/overage.out
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.obj
+*.a
+*.lib
+
+# Ignore go mod cache
+/go.mod
+/go.sum
+
+# Ignore Go binary
+/bin/
+
+# Ignore VS Code workspace settings
+.vscode/
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+
+# Ignore macOS specific files
+.DS_Store
